@@ -3,6 +3,16 @@ entries:
   esphome:
   - apiVersion: v2
     appVersion: 2025.6.3
+    created: "2025-07-12T23:51:21.481960309Z"
+    description: A Helm chart for Kubernetes
+    digest: b58f71c46dde42168a1f764d187d3fad83ea892fa8554bf11648a35af98f8387
+    name: esphome
+    type: application
+    urls:
+    - https://github.com/sordfish/esphome-helm-chart/releases/download/esphome-0.1.1/esphome-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 2025.6.3
     created: "2025-07-12T23:42:09.97780078Z"
     description: A Helm chart for Kubernetes
     digest: cbaea6f13b1891c8d7c641232508d0664f22b69806d5b5d65da1f5512f9dc0a8
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://github.com/sordfish/esphome-helm-chart/releases/download/esphome-0.1.0/esphome-0.1.0.tgz
     version: 0.1.0
-generated: "2025-07-12T23:42:09.977806681Z"
+generated: "2025-07-12T23:51:21.481974155Z"

@@ -4,7 +4,7 @@ kind: PersistentVolumeClaim
 metadata:
   name: esphome-data
   labels:
-    {{- include "esphome-helm-chart.labels" . | nindent 4 }}
+    {{- include "esphome.labels" . | nindent 4 }}
 spec:
   storageClassName: {{ .Values.persistance.config.storageClass }}
   accessModes: {{ .Values.persistance.config.accessModes }}

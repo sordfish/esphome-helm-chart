@@ -1,1 +1,1 @@
-"# esphome-helm-chart"
+# esphome-helm-chart

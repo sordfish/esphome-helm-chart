@@ -12,6 +12,11 @@ image:
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
 
+sidecar:
+  image:
+    repository: golang
+    tag: 1.24.0-alpine3.21
+
 env:
   ESPHOME_DASHBOARD_USE_PING: true 
 
